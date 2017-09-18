@@ -1,0 +1,26 @@
+///*----------------------------------*\
+//  #GLOBAL
+//\*----------------------------------*/
+//color pallete
+// Color palette
+$color-brand: #BADA55;
+$color-brand-highlight: lighten($color-brand, 15%);
+$color-brand-shadow: darken($color-brand, 15%);
+// High-level base settings.
+$base-font-size: 16px !default;
+$base-line-height: 24px !default;
+$base-text-color: #333 !default;
+$base-background-color: #fff !default;
+$base-fr-color: #005639 !default;
+$base-fr-color-border: #002317 !default;
+// These variables are framework variables, sourced from variables defined
+// above. Feel free to use these variables throughout your project, but do not
+// modify or reassign them.
+$base-spacing-unit: $base-line-height;
+$base-spacing-unit-tiny: round($base-spacing-unit / 4);
+$base-spacing-unit-small: round($base-spacing-unit / 2);
+$base-spacing-unit-large: round($base-spacing-unit * 2);
+$base-spacing-unit-huge: round($base-spacing-unit * 4);
+// Links
+$color-link: $color-brand;
+$color-link-hover: $color-brand-shadow;
