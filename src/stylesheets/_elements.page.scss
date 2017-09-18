@@ -7,4 +7,16 @@ html {
     padding-bottom: 0;
     background-color: #fff;
     // color: $color-text;
+    height: 100%;
+}
+
+body {
+    font-family: Helvetica Neue, Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+    color: #222;
+    line-height: 1.5;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
 }
