@@ -37,6 +37,9 @@
 //  * Widths...............Width helper classes for use with our Layout system.
 //  *
 //  */
+
+/*settings*/
+
 @import "_settings.global";
 @import "_tools.mixins";
 @import "_generic.normalize";
@@ -44,6 +47,7 @@
 @import "_generic.reset";
 @import "_generic.shared";
 @import "_elements.page";
+@import "_elements.table";
 @import "_elements.headings";
 @import "_elements.links";
 @import "_elements.lists";
@@ -51,3 +55,5 @@
 @import "_elements.quotes";
 @import "_objects.layout";
 @import "_objects.wrapper";
+@import "_components.header";
+@import "_components.board";
